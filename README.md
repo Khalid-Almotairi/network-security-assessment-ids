@@ -261,12 +261,23 @@ The assessment shows that blocking network services alone is not sufficient to s
 
 ```text
 .
+network-security-assessment-ids/
+│
 ├── README.md
 ├── docs/
 │   └── Network-Security-Project.pdf
+│
 ├── screenshots/
-|
+│   ├── topology.png
+│   ├── nmap-scan.png
+│   ├── wireshark.png
+│   ├── arp-spoofing.png
+│   ├── firewall.png
+│   └── suricata.png
+│
 └── configs/
+    ├── firewall-rules.txt
+    └── suricata-rules.txt
 ```
 
 ---
