@@ -284,5 +284,7 @@ The techniques demonstrated in this repository should only be used against syste
 ## Author
 
 **Network Security Project Team**
+Abdulrahman Alzahrani 
+Khalid Almutairi 
+Mohammed Alsayed 
 
-Academic project focused on practical network security assessment and intrusion detection.
