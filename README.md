@@ -265,8 +265,8 @@ The assessment shows that blocking network services alone is not sufficient to s
 ├── docs/
 │   └── Network-Security-Project.pdf
 ├── screenshots/
-├── configs/
-└── .gitignore
+|
+└── configs/
 ```
 
 ---
