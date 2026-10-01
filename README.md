@@ -4,8 +4,6 @@ A hands-on network security project focused on assessing, attacking, monitoring,
 
 The project demonstrates practical security techniques across network reconnaissance, traffic interception, host-based firewall enforcement, and intrusion detection using Suricata.
 
-> **Academic Project** — Network Security
-
 ---
 
 ## Overview
