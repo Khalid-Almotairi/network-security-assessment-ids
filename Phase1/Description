@@ -1,0 +1,8 @@
+Phase 1 — Lab Environment
+The network environment was configured and connectivity was verified between the participating machines.
+
+Basic connectivity was tested using ICMP:
+
+Kali → Server
+Client → Server
+This phase established the baseline network communication before performing security testing.
