@@ -1,0 +1,16 @@
+Phase 2 — Network Security Assessment
+A. Red Team Reconnaissance
+Network reconnaissance was performed using Nmap.
+
+Two scanning techniques were evaluated:
+
+Full TCP connection scan
+TCP SYN / stealth scan
+The resulting traffic was also examined using Wireshark to understand how reconnaissance activity appears at the packet level.
+
+B. Traffic Interception
+ARP spoofing was demonstrated within the controlled lab environment.
+
+The client ARP table was inspected to verify the poisoning state, followed by packet analysis using Wireshark.
+
+This demonstrates how a malicious host on the same Layer 2 network can position itself between communicating hosts and intercept traffic.
