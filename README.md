@@ -264,17 +264,11 @@ The assessment shows that blocking network services alone is not sufficient to s
 network-security-assessment-ids/
 │
 ├── README.md
-├── docs/
-│   └── Network-Security-Project.pdf
-│
-├── screenshots/
-│   ├── topology.png
-│   ├── nmap-scan.png
-│   ├── wireshark.png
-│   ├── arp-spoofing.png
-│   ├── firewall.png
-│   └── suricata.png
-│
+├── Phase1/
+│── Phase2/
+│── Phase3
+│── Phase4/
+│ 
 └── configs/
     ├── firewall-rules.txt
     └── suricata-rules.txt
