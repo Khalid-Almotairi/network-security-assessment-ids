@@ -1,1 +1,0 @@
-alert tcp any any -> any 22 (msg:"IDS ALERT: Unauthorized Scan/Probe Detected"; sid:1000001; rev:1;)
