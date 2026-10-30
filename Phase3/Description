@@ -1,0 +1,22 @@
+Phase 3 — Firewall Implementation
+Host-based access control was implemented using iptables.
+
+The firewall was configured to restrict unauthorized access to selected services, including:
+
+FTP  - TCP/21
+Telnet - TCP/23
+Firewall effectiveness was validated using Nmap.
+
+Blocked ports were observed as filtered during scanning.
+
+Firewall logs were also inspected to verify that unauthorized connection attempts were detected and recorded.
+
+Example log entries identified blocked SYN probes originating from the testing machine.
+
+More about Firewall Syslog Verification of Blocked Probes.png:
+As displayed in the image, querying the kernel logs (/var/log/kern.log) on the server confirms 
+that the host-based firewall policy is fully operational. The entries tagged with the custom 
+PROJECT_BLOCK: prefix show the system successfully intercepting and registering unauthorized SYN scans 
+directed at ports 21 (FTP) and 23 (Telnet). The log metadata correctly identifies the malicious 
+source IP address (192.168.56.102), validating that all unencrypted inbound access vectors have been 
+effectively mitigated and audited.
